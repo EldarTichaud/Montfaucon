@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(183, 163, 133, 0.5); /* Couleur de fond avec opacité évoquant le Moyen Âge */
+    min-height: 100vh; /* Assure que le corps a au moins la hauteur de la fenêtre visible */
+    position: relative; /* Permet de positionner le footer par rapport à cet élément */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem; /* Une taille de police plus grande pour l'entête */
+}
+
+nav {
+    background-color: #59332e; /* Une couleur terre pour évoquer la nature */
+    padding: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centre les liens dans le menu */
+}
+
+nav ul li {
+    display: inline-block; /* Affiche les liens côte à côte */
+    margin-right: 20px; /* Espacement entre les liens */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 15px; /* Ajoute un espace autour du texte du lien */
+    background-color: #59332e; /* Une couleur terre pour évoquer la nature médiévale */
+    border: 1px solid #fff; /* Ajoute une bordure autour des liens */
+    border-radius: 5px; /* Arrondit les coins de la bordure */
+    transition: background-color 0.3s ease; /* Ajoute une transition pour un effet visuel lors du survol */
+}
+
+/* Changement de style au survol du lien */
+nav a:hover {
+    background-color: #fff;
+    color: #59332e;
+}
+
+#accueil {
+    margin-left: 110px; /* Ajoute une marge de 50 pixels à gauche de l'élément <main> dans la section #accueil */
+}
+
+main {
+    padding: 20px;
+    background: url('chateau\ et\ vignes.jpg') center/cover no-repeat;
+    background-color: rgba(255, 255, 255, 0.2); /* Couleur de fond avec opacité */
+    min-height: 100vh; /* Assure que le contenu principal a au moins la hauteur de la fenêtre visible */
+    position: relative; /* Permet de positionner le footer par rapport à cet élément */
+}
+
+footer {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
